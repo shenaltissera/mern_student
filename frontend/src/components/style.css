@@ -1,0 +1,130 @@
+
+body{
+    background: url("#");
+    background-color: #ffffff;
+}
+
+
+.leave{
+    background: url("../images/hall.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   margin-top: -45px;
+   margin-bottom: -65px;
+    
+}
+.adminhome{
+    background-image: url("#");
+    height: 990px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.lecturerhome{
+    background-image: url("#");
+    height: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.headname{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #eb8e8e;
+    color: rgb(255, 255, 255);
+    padding: 14px 28px;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.btn1{
+    display: block;
+    width: 50%;
+    border:  1px solid black;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 14px 28px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    opacity: 0.5;
+    font-family: Arial;
+}
+.btn1:hover {
+	opacity: 1.0;
+}
+
+.btn2{
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #020202;
+    color: rgb(255, 255, 255);
+    padding: 14px 28px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    opacity: 0.5;
+}
+.btn2:hover {
+	opacity: 1.0;
+}
+
+.timetable{
+    background: url("../images/book.png");
+    height: 990px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.textField {
+	width: 100%;
+    background-color: #fdfffe;
+    font-size: 18px;
+    font-family: Lucida-Console;
+}
+
+.homebackground{
+    background-image: url("../images/longpic.png");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.alllecturerheader{
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #1e516e;
+    color: rgb(255, 255, 255);
+    padding: 14px 28px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.addbtn{
+    text-align:right;
+    width: 99%;
+   
+}
+
+.cent {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%); }

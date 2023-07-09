@@ -1,0 +1,27 @@
+
+/* The alert message box */
+.research-content{
+  height: 100vh;
+ width: 100%;
+}
+.research-alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+}
+/* h3 {
+    text-decoration: underline;
+    color:black;
+  } */
+
+.card-content-research{
+  background: #ffffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+.p-44{
+  color:red
+}
