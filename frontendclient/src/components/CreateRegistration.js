@@ -81,8 +81,9 @@ const CreateRegistration = (props) => {
       <br></br>
       <center>
         <p>
-        <h4><b>USER REGISTRATION FORM</b></h4>
-         <h5><b></b></h5>
+        <h4><b>REGISTRATION FORM: ROYAL EDUCATION INSTITUTE</b></h4>
+         <h5><b>INVITED TO REGISTER: Retired lecturers, unemployed lecturers, lecturers currently applying
+          their trade in Industry and foreign based lecturers</b></h5>
         </p>
         </center>
         <br></br>
@@ -97,7 +98,7 @@ const CreateRegistration = (props) => {
         <div className="">
           <br></br>
           <center>
-            <h1><b>User Registration</b></h1>
+            <h1><b>Lecturer Registration</b></h1>
             
           </center>
           

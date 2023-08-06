@@ -84,7 +84,7 @@ axios.get("/lecturers").then(res =>{
           
             <div style={{marginTop: '19px', marginLeft:'5px'}}>
             <center><h3><b>Lecturer Management</b></h3></center>
-            <center><h5><b>Details </b></h5></center>
+            <center><h5><b>Details of the lecturers in the Royal-Edu institute</b></h5></center>
         </div >
             </div>
             <div className="col-lg-3 mt-2 mb-2">

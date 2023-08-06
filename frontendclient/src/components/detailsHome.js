@@ -138,7 +138,7 @@ export default class detailsHome extends Component {
             <div className="container" style={{ border: '2px solid black', width: '100%', background: "#E6E6FA" }}>
               <img src={notice} style={{ width: '150px', height: '100%' }}></img>
               <h6><b>Notice number : 2</b></h6>
-              <h3 style={{ color: 'red' }}><b>Payment deadline </b></h3>
+              <h3 style={{ color: 'red' }}><b>Payment deadline of the classes</b></h3>
               <h2 style={{ color: 'black' }}><b>To: All Students</b></h2>
               <h3 style={{ color: 'black' }}><b>If any student don’t pay class fees to our institute on time who can’t enter into our Royal-Edu as well.</b></h3>
               <br></br>

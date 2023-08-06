@@ -80,8 +80,9 @@ const CreateRegistration = (props) => {
       
       <center>
         <p>
-        <h4><b>REGISTRATION FORM: WEDDING PLANNER LK</b></h4>
-         <h5><b>INVITED TO REGISTER: Experienced Wedding Ceremony service Providers</b></h5>
+        <h4><b>REGISTRATION FORM: ROYAL EDUCATION INSTITUTE</b></h4>
+         <h5><b>INVITED TO REGISTER: Retired lecturers, unemployed lecturers, lecturers currently applying
+          their trade in Industry and foreign based lecturers</b></h5>
         </p>
         </center>
         <br></br>
@@ -96,7 +97,7 @@ const CreateRegistration = (props) => {
         <div className="">
           <br></br>
           <center>
-            <h3><b>Registration</b></h3>
+            <h3><b>Lecturer Registration</b></h3>
           </center>
         </div>
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import  './Homefooter.css'
-import logo from './LK.png'
+import logo from './onlyLogo.png'
 
 export default class Adminhomefooter extends Component {
   
@@ -12,7 +12,17 @@ export default class Adminhomefooter extends Component {
       <div >
         <div className="row">
 
-          
+          <div className="col-xs-9 col-md-3">
+            <h6 style={{color:'black', marginLeft:'200px'}}>Categories</h6>
+            <ul className="footer-links"  style={{marginLeft:'200px'}}>
+              <li><a href="/"  style={{textDecoration:'none'}}>A/L subjects</a></li>
+              <li><a href="/"  style={{textDecoration:'none'}}>O/L subjects</a></li>
+              <li><a href="/"  style={{textDecoration:'none'}}>After A/L subjects</a></li>
+              <li><a href="/"  style={{textDecoration:'none'}}>After O/L subjects</a></li>
+              <li><a href="/"  style={{textDecoration:'none'}}>About us</a></li>
+              <li><a href="/"  style={{textDecoration:'none'}}>Payment</a></li>
+            </ul>
+          </div>
 
           <div className="col-xs-9 col-md-6">
            <center><img src={logo} alt="logo"style={{width:200 , marginTop:'20px'}}/></center>
@@ -35,7 +45,7 @@ export default class Adminhomefooter extends Component {
 <div className="bg-light">
         <div className="row">
           <div className="col-md-6 col-sm-6 col-xs-12" style={{marginLeft:'20px'}}>
-            <p className="copyright-text" >Copyright &copy; 2021 All Rights Reserved<br/><a href="/"  style={{textDecoration:'none'}}> </a>.
+            <p className="copyright-text" >Copyright &copy; 2021 All Rights Reserved by<br/><a href="/"  style={{textDecoration:'none'}}>Royal-Edu Institute </a>.
             </p>
           </div>
           <center><div className="col-md-5 col-sm-6 col-xs-12">

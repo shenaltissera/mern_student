@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import { saveAs } from 'file-saver';
 import pic4 from '../images/pdf.jpg';
-import pic44 from '../images/genPdfHotel.jpg';
+import pic44 from '../images/books1.jpeg';
 
 
 export default class StdPdf extends Component {
    
- 
+
     constructor(props){
         super(props);
         this.state={
@@ -93,15 +93,15 @@ export default class StdPdf extends Component {
         
         return (
             <div>
-            <p className="fs-4">Wedding Music and Entertainment</p>
+            <p className="fs-4">Student Management System</p>
             <div className="container">
-                <h1>Band Details PDF</h1>
+                <h1>Student Details PDF</h1>
                 </div>
             <div className='card container'>
        <div className="container">
        <img src={pic44} style={{width:'1290px' , height:'100%'}}></img>
        <form className="needs-validation" noValidate>
-       <h1 style={{color:'black'}}><p className="fs-1">Display Band Details and Download PDF <img src={pic4} style={{width:'100px' , height:'100%'}}></img></p></h1>
+       <h1 style={{color:'black'}}><p className="fs-1">Display Student Details and Download PDF <img src={pic4} style={{width:'100px' , height:'100%'}}></img></p></h1>
        &nbsp;&nbsp;
 
 <div className="mb-3">
@@ -110,7 +110,7 @@ export default class StdPdf extends Component {
 </div>
 
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold">Band full Name </p></label>
+<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold">Student full Name </p></label>
 <input className="form-control" name="student_full_name" value={this.state.student_full_name} onChange={this.handleInputChange} readOnly />
 </div>
 <div className="mb-3">
@@ -122,11 +122,11 @@ export default class StdPdf extends Component {
 <input className="form-control" name="date_of_addmission" value={this.state.date_of_addmission} onChange={this.handleInputChange} readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Class type </p></label>
+<label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Class Name </p></label>
 <input className="form-control" name="class_name" aria-describedby="emailHelp" value={this.state.class_name} onChange={this.handleInputChange} readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Band Name </p></label>
+<label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Course Name </p></label>
 <input className="form-control" name="course_name" aria-describedby="emailHelp" value={this.state.course_name} onChange={this.handleInputChange} readOnly/>
 </div>
 <div className="mb-3">
@@ -138,7 +138,7 @@ export default class StdPdf extends Component {
 <input className="form-control" name="nic" aria-describedby="emailHelp" value={this.state.nic} onChange={this.handleInputChange} readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold">Email (Band)</p></label>
+<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold">Email</p></label>
 <input className="form-control" name="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.handleInputChange} readOnly/>
 </div>
 <div className="mb-3">
@@ -162,19 +162,19 @@ export default class StdPdf extends Component {
 <input className="form-control" name="nationality" aria-describedby="emailHelp" value={this.state.nationality} onChange={this.handleInputChange} readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold">other Owner Name</p></label>
+<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold">Gurdian Name</p></label>
 <input className="form-control" name="gurdian_name" aria-describedby="emailHelp" value={this.state.gurdian_name} onChange={this.handleInputChange} readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold"> Contact Number</p></label>
+<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold">Gurdian Contact Number</p></label>
 <input className="form-control" name="gurdian_contact_number" aria-describedby="emailHelp" value={this.state.gurdian_contact_number} onChange={this.handleInputChange} readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold"> Email</p></label>
+<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold">Gurdian Email</p></label>
 <input className="form-control" name="gurdian_email" aria-describedby="emailHelp" value={this.state.gurdian_email} onChange={this.handleInputChange} readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold"> Occupation</p></label>
+<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold">Gurdian Occupation</p></label>
 <input className="form-control" name="gurdian_occupation" aria-describedby="emailHelp" value={this.state.gurdian_occupation} onChange={this.handleInputChange} readOnly/>
 </div>
 <div className="mb-3">

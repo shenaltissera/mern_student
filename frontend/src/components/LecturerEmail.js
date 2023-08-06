@@ -66,7 +66,7 @@ export default class LecturerEmail extends Component {
               <input type="email" name="user_email" value={this.state.email} className="form-control" required />
               <br></br>
               <label><b>Message</b></label>
-              <textarea name="message" rows="4" className="form-control" value="Congratulations! You have been selected by the Wedding Planner LK 
+              <textarea name="message" rows="4" className="form-control" value="Congratulations! You have been selected by the Royal-Edu Institute 
               
               
               Be the best with the best lecturers. ICON assure you that your learning experience at ICON will be beyond expectation. 

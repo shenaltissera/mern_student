@@ -6,7 +6,7 @@ export default class CreatePost extends Component {
         super(props);
         this.state={
             student_full_name:" ",
-            Name_with_initials:" ", 
+            Name_with_initials:" ",
             date_of_addmission:" ",
             class_name:" ",
             course_name:" ",
@@ -193,16 +193,3 @@ render(){
 )
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

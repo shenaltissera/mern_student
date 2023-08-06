@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import adminpic2 from '../images/stdAdminPic.png';
 import search from '../images/searchStd.jpg';
-import by from '../images/HotelViewAdmin.gif';
+import by from '../images/yellow.jpg';
 export default class Home extends Component {
   constructor(props){
     super(props);
@@ -10,7 +10,7 @@ export default class Home extends Component {
     this.state ={
       posts:[]
       };
-    } 
+    }
     
 componentDidMount(){
   this.retrievePosts();
@@ -60,15 +60,15 @@ componentDidMount(){
 
     render() {
       return (
-        <div >
-          <p class="fs-4">Wedding Music and Entertainment</p>
+        <div>
+          <p class="fs-4">Student Management System</p>
           <div className="container">
-                <h1><p class="fs-1"> Welcome to Band Management <img src={adminpic2} style={{width:'600px' , height:'100%'}}></img> </p></h1>
+                <h1><p class="fs-1"> Welcome to Student <img src={adminpic2} style={{width:'600px' , height:'100%'}}></img> </p></h1>
           </div> 
           <div className="container">
           <img src={by} style={{ width: '110%'}}></img>
           </div>
-          <h1> <p class="fs-2"> Display Bands Details</p></h1>
+          <h1> <p class="fs-2"> Display Student Details</p></h1>
            
           <div>
                 <h1><p class="fs-3"> You can search.. <img src={search} style={{width:'80px' , height:'100%'}}></img> </p></h1>
@@ -87,14 +87,14 @@ componentDidMount(){
           <thead>
               <tr>
               <th scope = "col">INDEX NO</th>
-               <th scope = "col">BAND NAME</th>
+               <th scope = "col">STUDENT FULL NAME</th>
                
                 <th scope = "col">DATE OF ADDMISSION </th>
-                <th scope = "col"> CLASS TYPE</th>
-                <th scope = "col"> OWNER NAME</th>
+                <th scope = "col"> CLASS NAME</th>
+                <th scope = "col"> COURSE NAME</th>
                 
                 <th scope = "col"> NIC</th>
-                <th scope = "col"> EMAIL (Band)</th>
+                <th scope = "col"> EMAIL</th>
                
                 <th scope = "col">TELEPHONE </th>
                 

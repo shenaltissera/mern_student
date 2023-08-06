@@ -8,7 +8,7 @@ export default class PostDetails extends Component {
 
         this.state={
             post:{}
-        }; 
+        };
     }
 
     componentDidMount(){
@@ -37,7 +37,7 @@ export default class PostDetails extends Component {
                 <hr/>
 
                 <dl className="row">
-                    <dt className="col-sm-3">Band Owner Full Name</dt>
+                    <dt className="col-sm-3">student Full Name</dt>
                     <dd className="col-sm-9">{student_full_name}</dd>
 
                     <dt className="col-sm-3">Name with Initials</dt>
@@ -49,7 +49,7 @@ export default class PostDetails extends Component {
                     <dt className="col-sm-3">Class Name</dt>
                     <dd className="col-sm-9">{class_name}</dd>
 
-                    <dt className="col-sm-3">Band_Name</dt>
+                    <dt className="col-sm-3">Course_Name</dt>
                     <dd className="col-sm-9">{course_name}</dd>
 
                     <dt className="col-sm-3">Date Of Birth</dt>
@@ -77,16 +77,16 @@ export default class PostDetails extends Component {
                     <dt className="col-sm-3">Nationality</dt>
                     <dd className="col-sm-9">{nationality}</dd>
 
-                    <dt className="col-sm-3">Sub Owners name</dt>
+                    <dt className="col-sm-3">Gurdian name</dt>
                     <dd className="col-sm-9">{gurdian_name}</dd>
 
-                    <dt className="col-sm-3">Sub Owner Contact Number</dt>
+                    <dt className="col-sm-3">Gurdian Contact Number</dt>
                     <dd className="col-sm-9">{gurdian_contact_number}</dd>
 
-                    <dt className="col-sm-3">Sub Owners Email</dt>
+                    <dt className="col-sm-3">Gurdian Email</dt>
                     <dd className="col-sm-9">{gurdian_email}</dd>
 
-                    <dt className="col-sm-3">Sub Owners Occupation</dt>
+                    <dt className="col-sm-3">Gurdian Occupation</dt>
                     <dd className="col-sm-9">{gurdian_occupation}</dd>
 
                     <dt className="col-sm-3">Date</dt>
@@ -107,6 +107,4 @@ export default class PostDetails extends Component {
         )
     }
 }
-
-
 

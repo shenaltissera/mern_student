@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import pic7 from '../images/addNew.png';
 import pic77 from '../images/ii.jpg';
-export default class addstudent extends Component { 
+export default class addstudent extends Component {
    
 
     constructor(props){
@@ -147,14 +147,14 @@ onsubmit = (e) =>{
     render(){
         return (
             <div>
-                <p class="fs-4">Wedding Music and Entertainment</p> 
+                <p class="fs-4">Student Management System</p> 
                 <div className="container">
                 <h1>Admin Offer the Registration Number</h1>
                 </div>
                 <div className='card container'>
        <div className="container">
        <img src={pic77} style={{width:'1290px' , height:'100%'}}></img>
-       <h1 style={{color:'black'}}><p className="fs-1"> Admin Add New Band Registration No: <img src={pic7} style={{width:'200px' , height:'100%'}}></img></p></h1>
+       <h1 style={{color:'black'}}><p className="fs-1"> Admin Add New Student Registration No: <img src={pic7} style={{width:'200px' , height:'100%'}}></img></p></h1>
         &nbsp;&nbsp; 
        <form className="needs-validation">
        <div className="mb-3">
@@ -162,11 +162,11 @@ onsubmit = (e) =>{
 <input className="form-control" name="registrationNo" aria-describedby="emailHelp" value={this.state.registrationNo} onChange={this.handleInputChange}/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold"> Band Name </p></label>
+<label for="exampleInputEmail1" className="form-label"> <p class="fw-bold">Student full Name </p></label>
 <input className="form-control" name="student_full_name" aria-describedby="emailHelp" value={this.state.student_full_name} onChange={this.handleInputChange}readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputPassword1" className="form-label"><p class="fw-bold">Owner Name  </p></label>
+<label for="exampleInputPassword1" className="form-label"><p class="fw-bold">Name with Initials </p></label>
 <input className="form-control" name="Name_with_initials" value={this.state.Name_with_initials} onChange={this.handleInputChange}readOnly/>
 </div>
 <div className="mb-3">
@@ -174,11 +174,11 @@ onsubmit = (e) =>{
 <input className="form-control" name="date_of_addmission" value={this.state.date_of_addmission} onChange={this.handleInputChange}readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Class Type </p></label>
+<label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Class Name </p></label>
 <input className="form-control" name="class_name" aria-describedby="emailHelp" value={this.state.class_name} onChange={this.handleInputChange}readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Star And Rate </p></label>
+<label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Course Name </p></label>
 <input className="form-control" name="course_name" aria-describedby="emailHelp" value={this.state.course_name} onChange={this.handleInputChange}readOnly/>
 </div>
 <div className="mb-3">
@@ -214,29 +214,29 @@ onsubmit = (e) =>{
 <input className="form-control" name="nationality" aria-describedby="emailHelp" value={this.state.nationality} onChange={this.handleInputChange}readOnly/>
 </div>
 &nbsp;
-<h3>Other Owners Details</h3>
+<h3>Student Gurdian Details</h3>
 &nbsp;
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"><p class="fw-bold"> Name</p></label>
+<label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Gurdian Name</p></label>
 <input className="form-control" name="gurdian_name" aria-describedby="emailHelp" value={this.state.gurdian_name} onChange={this.handleInputChange}readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"><p class="fw-bold"> Contact Number</p></label>
+<label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Gurdian Contact Number</p></label>
 <input className="form-control" name="gurdian_contact_number" aria-describedby="emailHelp" value={this.state.gurdian_contact_number} onChange={this.handleInputChange}readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"><p class="fw-bold"> Email </p></label>
+<label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Gurdian Email </p></label>
 <input type="email" className="form-control" name="gurdian_email" aria-describedby="emailHelp" value={this.state.gurdian_email} onChange={this.handleInputChange}readOnly/>
 </div>
 <div className="mb-3">
-<label for="exampleInputEmail1" className="form-label"><p class="fw-bold"> Occupation </p></label>
+<label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Gurdian Occupation </p></label>
 <input className="form-control" name="gurdian_occupation" aria-describedby="emailHelp" value={this.state.gurdian_occupation} onChange={this.handleInputChange}readOnly/>
 </div>
 <div className="mb-3">
 <label for="exampleInputEmail1" className="form-label"><p class="fw-bold">Date</p></label>
 <input className="form-control" name="date" aria-describedby="emailHelp" value={this.state.date} onChange={this.handleInputChange}readOnly/>
 </div>&nbsp;
-<h3>Band Payment Details</h3>
+<h3>Student Payment Details</h3>
 &nbsp;
 
 <div className="mb-3">
@@ -259,4 +259,3 @@ onsubmit = (e) =>{
    )
    }
 }
-

@@ -25,7 +25,7 @@ export default class Homeheader extends Component {
           <div className="col-xs-6 col-md-7">
             
             <center><h6>About</h6></center>
-            <p className="text-justify" style={{color:'white'}}> <i> Join with us to make your life success </i></p>
+            <p className="text-justify" style={{color:'white'}}>Royal-EDU higher education institute <i> Join with us to make your life success </i> We have  courses for after o/l and after a/l students. There are all subjects for O/L and A/L students. . </p>
           </div>
 
           <div className="col-xs-6 col-md-2">
@@ -46,7 +46,7 @@ export default class Homeheader extends Component {
       <div className="bg-light">
         <div className="row">
           <div className="col-md-6 col-sm-6 col-xs-12" style={{marginLeft:'20px'}}>
-            <p className="copyright-text" >Copyright &copy; 2021 All Rights Reserved <br/><a href="/"> </a>.
+            <p className="copyright-text" >Copyright &copy; 2021 All Rights Reserved by<br/><a href="/">Royal-Edu Institute </a>.
             </p>
           </div>
           <center><div className="col-md-5 col-sm-6 col-xs-12">

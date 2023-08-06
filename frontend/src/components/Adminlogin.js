@@ -57,8 +57,7 @@ export default class Login extends Component {
                     <div class="form-group"><input class="form-control" type="password" name="password" value={this.state.password} onChange={this.onChange} placeholder="Enter Admin password"/></div><br></br>
                     <br></br>
                     <div class="form-group">
-                     <div class="container">
-                     <button class="btn btn-info" type="button">Login</button>
+                     <div class="container"><button type="submit" class="btn btn-warning" >Login</button>
                             </div>
                     </div>
 

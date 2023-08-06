@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react'
-import logo from './LK.png'
+import logo from './Bright.png'
 import './style.css'
 
 export default class Homeheader extends Component {
@@ -11,7 +11,7 @@ export default class Homeheader extends Component {
       <div>
         <nav className="navbar navbar-light bg-light ">
           <div   >
-            <img src={logo} alt="logo" style={{ width: 200, marginTop: '20px', marginLeft: '20px' }} />
+            <img src={logo} alt="logo" style={{ width: 600, marginTop: '20px', marginLeft: '20px' }} />
 
           </div>
         </nav>
@@ -21,17 +21,25 @@ export default class Homeheader extends Component {
               <b><a className="nav-link active " aria-current="page" href="/middle" style={{ fontSize: '23px', marginLeft: '20px' }}>Home</a></b>
             </li>
             <li className="nav-item">
-              <a className="nav-link active " aria-current="page" href="/course" style={{ fontSize: '23px' }}>Portofolio</a>
+              <a className="nav-link active " aria-current="page" href="/course" style={{ fontSize: '23px' }}>Courses</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active " aria-current="page" href="/allsubjects" style={{ fontSize: '23px' }}>Services</a>
+              <a className="nav-link active " aria-current="page" href="/allsubjects" style={{ fontSize: '23px' }}>Subjects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active " aria-current="page" href="/lecturerpage" style={{ fontSize: '23px' }}>Support</a>
+              <a className="nav-link active " aria-current="page" href="/lecturerpage" style={{ fontSize: '23px' }}>Lecturers</a>
             </li>
-          
             <li className="nav-item">
-              <a className="nav-link active " aria-current="page" href="/notices" style={{ fontSize: '23px' }}>Notifications</a>
+              <a className="nav-link active " aria-current="page" href="/clientlibrary" style={{ fontSize: '23px' }}>Library</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active " aria-current="page" href="/special" style={{ fontSize: '23px' }}>Events</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active " aria-current="page" href="/displaytimetables" style={{ fontSize: '23px' }}>TimeTables</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active " aria-current="page" href="/notices" style={{ fontSize: '23px' }}>Notices</a>
             </li>
             <li style={{ marginLeft: '1165px' }}>
               <div class="dropdown">

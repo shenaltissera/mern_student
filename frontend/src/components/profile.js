@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import pic2 from '../images/Avenra.jpg';
-import pic12 from '../images/ViewPorfileHotel.jpg';
+import pic2 from '../images/ladyFace.jpeg';
+import pic12 from '../images/ff1.jpg';
 
 export default class profile extends Component {
 
-    constructor(props){ 
+    constructor(props){
         super(props);
 
         this.state={
@@ -35,10 +35,10 @@ export default class profile extends Component {
             return (
                 
                 <div >
-                <p class="fs-4">Wedding Music and Entertainment</p>
+                <p class="fs-4">Student Management System</p>
                 <div className="container">
                 
-                <h1><p class="fs-1">  Welcome to the Band Profile </p></h1>
+                <h1><p class="fs-1">  Welcome to the Student Profile </p></h1>
                 <img src={pic12} style={{width:'1300px' , height:'100%'}}></img>
     
                 <div className='card container'  style={{backgroundColor:'#009999'}}>
@@ -61,12 +61,12 @@ export default class profile extends Component {
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Band Name</th>
+                            <th scope="col">Student Full Name</th>
                             <td>{student_full_name}</td>
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Owner Name </th>
+                            <th scope="col">Name With Initials</th>
                             <td>{Name_with_initials}</td>
                         </tr>
                         <br></br>
@@ -76,12 +76,12 @@ export default class profile extends Component {
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Class Type</th>
+                            <th scope="col">Class Name</th>
                             <td>{class_name}</td>
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Star And Rate</th>
+                            <th scope="col">Course Name</th>
                             <td>{course_name}</td>
                         </tr>
                         <br></br>
@@ -91,12 +91,12 @@ export default class profile extends Component {
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col"> NIC</th>
+                            <th scope="col">Student NIC</th>
                             <td>{nic}</td>
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Band Email</th>
+                            <th scope="col">Student Email</th>
                             <td>{email}</td>
                         </tr>
                         <br></br>
@@ -126,27 +126,27 @@ export default class profile extends Component {
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Band Address</th>
+                            <th scope="col">Student Address</th>
                             <td>{address}</td>
                         </tr>
                         <br></br>
                         <tr>
-                        <th scope="col">Other Owner Name</th>
+                        <th scope="col">Gurdians Name</th>
                         <td>{gurdian_name}</td>
                         </tr>
                         <br></br>
                         <tr>
-                        <th scope="col"> Contact Number</th>
+                        <th scope="col">Gurdians Contact Number</th>
                         <td>{gurdian_contact_number}</td>
                         </tr>
                         <br></br>
                         <tr>
-                        <th scope="col"> Email</th>
+                        <th scope="col">Gurdians Email</th>
                         <td>{gurdian_email}</td>
                         </tr>
                         <br></br>
                         <tr>
-                        <th scope="col"> Occupation</th>
+                        <th scope="col">Gurdians Occupation</th>
                         <td>{gurdian_occupation}</td>
                         </tr>
                         <br></br>
@@ -176,7 +176,7 @@ export default class profile extends Component {
                     <img src={pic12} style={{width:'1300px' , height:'100%'}}></img>  &nbsp;&nbsp;
                     <div className="container">   
                    
-                <p class="fs-5">If you need  Edit some details which were included in your Registration form?And You can click this button as well.
+                <p class="fs-5">If you need  Edit some details which were included in your Student Registration form?And You can click this button as well.
                 </p>
                 </div>
                     <a className="btn btn-dark" href={`/stdEdit/${this.props.match.params.id}`}><i className="fas fa-edit" ></i>&nbsp;Update Details</a>
@@ -197,9 +197,3 @@ export default class profile extends Component {
             )
     }
 }
-
-
-
-
-
-

@@ -1,9 +1,8 @@
-
 import React, { Component } from 'react';
 import axios from 'axios';
 import adminpic from '../images/stdAdminPic.png';
 import search from '../images/searchStd.jpg';
-import girl from '../images/genPdfHotel.jpg';
+import girl from '../images/orange.jpg';
 export default class mainhome extends Component {
   constructor(props){
     super(props);
@@ -11,7 +10,7 @@ export default class mainhome extends Component {
     this.state ={
       posts:[]
       };
-    } 
+    }
     
 componentDidMount(){
   this.retrievePosts();
@@ -63,17 +62,17 @@ componentDidMount(){
 
     render() {
       return (
-        <div className="container">
-         <p class="fs-4">Wedding Music and Entertainment</p>
+        <div>
+         <p class="fs-4">Student Management System</p>
          <div className="container">
-                <h1><p class="fs-1"> Welcome to Band Management <img src={adminpic} style={{width:'600px' , height:'100%'}}></img> </p></h1>
+                <h1><p class="fs-1"> Welcome to Student <img src={adminpic} style={{width:'600px' , height:'100%'}}></img> </p></h1>
           </div> 
           <div className="container">
                 <img src={girl} style={{width:'1400px' , height:'100%'}}></img> 
           </div> 
 
 
-        <h1> <p class="fs-2"> Display application requests</p></h1>
+        <h1> <p class="fs-2"> Display Student Details</p></h1>
         <div>
                 <h1><p class="fs-3"> You can search.. <img src={search} style={{width:'80px' , height:'100%'}}></img> </p></h1>
           </div>
@@ -84,7 +83,7 @@ componentDidMount(){
               </td>
               
               <td>
-                <button className="btn btn-dark" style={{marginLeft:'33px'}}><a href="/studentapplications" style={{textDecoration:'none',color:'white'}}> BAND APPLICATIONS </a></button>
+                <button className="btn btn-dark" style={{marginLeft:'33px'}}><a href="/studentapplications" style={{textDecoration:'none',color:'white'}}> STUDENT APPLICATIONS </a></button>
               </td>
               <td>
                 {/* <button className="btn btn-dark" style={{marginLeft:'33px'}}><a href="/registration" style={{textDecoration:'none',color:'white'}}> Registration Form</a></button> */}
@@ -101,15 +100,15 @@ componentDidMount(){
 
           <thead>
               <tr>
-              <th scope = "col"> NO</th>
+              <th scope = "col">INDEX NO</th>
               <th scope = "col">REGISTRATION NUMBER</th>
-               <th scope = "col">HETEL NAME</th>
+               <th scope = "col">STUDENT FULL NAME</th>
                 <th scope = "col">DATE OF ADDMISSION </th>
-                <th scope = "col"> CLASS TYPE</th>
-                <th scope = "col"> STAR AND RATE</th>
+                <th scope = "col"> CLASS NAME</th>
+                <th scope = "col"> COURSE NAME</th>
                 <th scope = "col"> NIC</th>
-                <th scope = "col"> EMAIL (Band)</th>
-                <th scope = "col">TELEPHONE (OWNER) </th>          
+                <th scope = "col"> EMAIL</th>
+                <th scope = "col">TELEPHONE </th>          
                 <th scope = "col"> BANK NAME</th>
                 <th scope = "col"> PAYMENT DATE</th>
                 <th scope = "col"> ACTION</th>
@@ -176,8 +175,3 @@ componentDidMount(){
   }
   
   
-
-
-
-
-

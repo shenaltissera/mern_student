@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import pic3 from '../images/Avenra.jpg';
+import pic3 from '../images/boy123.jpeg';
 import ReactHTMLTableToExcel from 'react-html-table-to-excel';
-import pic33 from '../images/HotelView2.jpg';
-import pic34 from '../images/HotelView1.jpg';
+import pic33 from '../images/book78.jpg';
+import pic34 from '../images/book79.jpg';
 export default class ViewStdDetails extends Component {
- 
+
     constructor(props){
         super(props);
 
@@ -32,12 +32,12 @@ export default class ViewStdDetails extends Component {
             return (
                 
                 <div>
-                <p class="fs-4">Wedding Music and Entertainment</p>
+                <p class="fs-4">Student Management System</p>
                 <div className="container">
-                <h1><p class="fs-1">View Band Details</p></h1>
+                <h1><p class="fs-1">View Student Details</p></h1>
                 <img src={pic34} style={{width:'1300px' , height:'100%'}}></img>
                 <div className='card container'>
-                    <h1> Profile of the Band</h1>
+                    <h1> Profile of the student</h1>
                 &nbsp;&nbsp;            
                 <table>
                         <tr>
@@ -55,12 +55,12 @@ export default class ViewStdDetails extends Component {
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Band Name</th>
+                            <th scope="col">Student Full Name</th>
                             <td>{student_full_name}</td>
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Owner Name </th>
+                            <th scope="col">Name With Initials</th>
                             <td>{Name_with_initials}</td>
                         </tr>
                         <br></br>
@@ -70,12 +70,12 @@ export default class ViewStdDetails extends Component {
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Class Type</th>
+                            <th scope="col">Class Name</th>
                             <td>{class_name}</td>
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Star And Rate</th>
+                            <th scope="col">Course Name</th>
                             <td>{course_name}</td>
                         </tr>
                         <br></br>
@@ -85,12 +85,12 @@ export default class ViewStdDetails extends Component {
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Owner NIC</th>
+                            <th scope="col">Student NIC</th>
                             <td>{nic}</td>
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Owner's Email</th>
+                            <th scope="col">Student Email</th>
                             <td>{email}</td>
                         </tr>
                         <br></br>
@@ -120,27 +120,27 @@ export default class ViewStdDetails extends Component {
                         </tr>
                         <br></br>
                         <tr>
-                            <th scope="col">Band Address</th>
+                            <th scope="col">Student Address</th>
                             <td>{address}</td>
                         </tr>
                         <br></br>
                         <tr>
-                        <th scope="col">Owner Name</th>
+                        <th scope="col">Gurdians Name</th>
                         <td>{gurdian_name}</td>
                         </tr>
                         <br></br>
                         <tr>
-                        <th scope="col"> Contact Number</th>
+                        <th scope="col">Gurdians Contact Number</th>
                         <td>{gurdian_contact_number}</td>
                         </tr>
                         <br></br>
                         <tr>
-                        <th scope="col"> Email</th>
+                        <th scope="col">Gurdians Email</th>
                         <td>{gurdian_email}</td>
                         </tr>
                         <br></br>
                         <tr>
-                        <th scope="col"> Occupation</th>
+                        <th scope="col">Gurdians Occupation</th>
                         <td>{gurdian_occupation}</td>
                         </tr>
                         <br></br>
@@ -170,7 +170,7 @@ export default class ViewStdDetails extends Component {
                     </div>
                     <img src={pic33} style={{width:'1300px' , height:'100%'}}></img>
                     <br></br> &nbsp;&nbsp;
-                    <h3>You can Download Excel sheet of the Band Details..</h3>
+                    <h3>You can Download Excel sheet of the Student Details..</h3>
                     <br></br>
                     <ReactHTMLTableToExcel
                     className="btn btn-dark fas fa-file"
@@ -180,7 +180,7 @@ export default class ViewStdDetails extends Component {
                     sheet="tablexls"
                     buttonText=" Download Excel Report"/>
                     <br></br><br></br>
-                    <h3>Admin can send an Email to the Band...</h3>
+                    <h3>Admin can send an Email to the Student...</h3>
                        <br></br>
                     <br></br>
                   <a href="/getmail"><button class="btn btn-danger" ><i class="far fa-envelope"></i>&nbsp;Send Email</button></a><br></br>
@@ -193,4 +193,3 @@ export default class ViewStdDetails extends Component {
             )
     }
 }
-

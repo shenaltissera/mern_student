@@ -59,7 +59,7 @@ const Course =  (props) => {
 
         <MainContainer  >
   
-       <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Selected Services&nbsp;&nbsp;<i class="far fa-bookmark"></i></h1>
+       <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Course Information&nbsp;&nbsp;<i class="far fa-bookmark"></i></h1>
 
       
        <br></br>
@@ -74,12 +74,12 @@ const Course =  (props) => {
   </thead>
   <tbody id="cusdet" >
     <tr>
-      <th  scope="row"><i class="fas fa-portrait"></i>&nbsp;ID</th>
+      <th  scope="row"><i class="fas fa-portrait"></i>&nbsp; Course ID</th>
       <td>{courseID}</td>
       
     </tr>
     <tr>
-      <th scope="row"><i class="fas fa-book-open"></i>&nbsp;Service</th>
+      <th scope="row"><i class="fas fa-book-open"></i>&nbsp;Course Name</th>
       <td>{courseName}</td>
     
     </tr>
@@ -99,7 +99,7 @@ const Course =  (props) => {
     
     </tr>
     <tr>
-      <th scope="row"><i class="far fa-calendar-times"></i>&nbsp; Date</th>
+      <th scope="row"><i class="far fa-calendar-times"></i>&nbsp; Duration</th>
       <td scope="row" >{duration}</td>
     
     </tr>

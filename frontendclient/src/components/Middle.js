@@ -24,10 +24,10 @@ export default class Middle extends Component {
                         <table>
                             <tr>
                                 <td>
-                                    <div style={{ fontSize: '60px', color: '#008B8B', marginLeft: '380px',fontFamily:'-moz-initial' }}><b>Welcome To Wedding Planner LK</b>
+                                    <div style={{ fontSize: '60px', color: '#008B8B', marginLeft: '380px',fontFamily:'-moz-initial' }}><b>Welcome To Royal EDU Institute</b>
                                         <br></br>
 
-                                        <h5><b>We are a leading institute approved by the government</b></h5>
+                                        <h5><b>We are a leading non-state degree awarding institute approved by the University </b></h5>
                                         <h5><b>Grants Commission (UGC) under the Universities Act. We are also members of the</b></h5>
                                         <h5><b>Association of Commonwealth Universities (ACU), as well as the International</b></h5>
                                         <h5><b>Association of Universities (IAU), and the first Sri Lankan institute to be</b></h5>
@@ -45,19 +45,19 @@ export default class Middle extends Component {
                                     <tr>
                                         <td>
                                             <img src={sliit1} style={{ width: 150, marginTop: '40px', marginLeft: '40px', marginRight: '40px' }} />
-                                            <center><p><b>10 YEARS OF Experience</b></p></center>
+                                            <center><p><b>10 YEARS OF EXISTENCE</b></p></center>
                                         </td>
 
                                         <td>
                                             <img src={sliit2} style={{ width: 150, marginTop: '40px', marginLeft: '40px', marginRight: '40px' }} />
-                                            <center><p><b>10000+ Clients</b></p></center>
+                                            <center><p><b>10000+ STUDENTS</b></p></center>
                                         </td>
                                     </tr>
 
                                     <tr>
                                         <td>
                                             <img src={sliit3} style={{ width: 150, marginTop: '40px', marginLeft: '40px', marginRight: '40px' }} />
-                                            <center><p><b>10+ YEARS <br></br> OF COLLECTIVE EXPERIENCE</b></p></center>
+                                            <center><p><b>500 YEARS <br></br> OF COLLECTIVE EXPERIENCE</b></p></center>
                                         </td>
 
                                         <td>
@@ -85,8 +85,8 @@ export default class Middle extends Component {
                                     <img src={reggif} style={{ width: '500px', height: 'auto' }} />
                                 </td>
                                 <td style={{ color: 'white', textAlign: 'center' }}>
-                                    <h3 ><b>New Registration for service providers</b></h3>
-                                    <p>now you can join with us</p>
+                                    <h3 ><b>New Registration for Students</b></h3>
+                                    <p>now you can join with our next year classes</p>
                                     <a className="btn btn-outline-light btn-lg" style={{ width: '200px' }} href='/signupstd'>Register now!</a>
                                 </td>
                             </tr>
@@ -96,8 +96,8 @@ export default class Middle extends Component {
                         <table>
                             <tr>
                                 <td style={{ color: 'white', textAlign: 'center' }}>
-                                    <h3 style={{ marginLeft: '30px' }}><b>struggling to plan your wedding?</b></h3>
-                                    <p style={{ marginLeft: '30px' }}> Click below...</p>
+                                    <h3 style={{ marginLeft: '30px' }}><b>How to buy online subjects?</b></h3>
+                                    <p style={{ marginLeft: '30px' }}>You can buy subjects here. Click below...</p>
                                     <a className="btn btn-outline-light btn-lg" style={{ width: '200px', marginLeft: '30px' }} href='/allsubjects'>Buy now!</a>
                                 </td>
                                 <td style={{ textAlign: 'right' }}>
@@ -113,9 +113,9 @@ export default class Middle extends Component {
                                     <img src={coursegif} style={{ width: '500px', height: 'auto' }} />
                                 </td>
                                 <td style={{ color: 'white', textAlign: 'center' }}>
-                                    <h3 ><b>How to contact an assistant?</b></h3>
-                                    <p>You hire a wedding planner here. Click below...</p>
-                                    <a className="btn btn-outline-light btn-lg" style={{ width: '200px' }} href='/course'>Contact now!</a>
+                                    <h3 ><b>How to buy online courses?</b></h3>
+                                    <p>You can buy courses here. Click below...</p>
+                                    <a className="btn btn-outline-light btn-lg" style={{ width: '200px' }} href='/course'>Buy now!</a>
                                 </td>
                             </tr>
                         </table>
@@ -125,8 +125,9 @@ export default class Middle extends Component {
                             <tr>
                                 <td style={{ color: 'white', textAlign: 'center' }}>
                                     <h3 style={{ marginLeft: '30px' }}><b>Wanna Join With Us?</b></h3>
-                                    <a className="btn btn-outline-light btn-lg" style={{ width: '250px', marginLeft: '30px' }} href='/lecturerreg' target="_blank" rel="noopener noreferrer">User registration</a>&nbsp;
-                                    <a className="btn btn-outline-light btn-lg" style={{ width: '300px', marginLeft: '30px' }} href='/apply' target="_blank" rel="noopener noreferrer">Service Provider Registration</a>
+                                    <p style={{ marginLeft: '30px' }}>You are warmly wewlcome here as a lecturer or trainee...</p>
+                                    <a className="btn btn-outline-light btn-lg" style={{ width: '250px', marginLeft: '30px' }} href='/lecturerreg' target="_blank" rel="noopener noreferrer">Academic Registration</a>&nbsp;
+                                    <a className="btn btn-outline-light btn-lg" style={{ width: '300px', marginLeft: '30px' }} href='/apply' target="_blank" rel="noopener noreferrer">Non-Academic Registration</a>
                                 </td>
                                 <td style={{ textAlign: 'right' }}>
                                     <img src={lecgif} style={{ width: '500px', height: 'auto' }} />

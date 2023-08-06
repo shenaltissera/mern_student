@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import pic from '../images/welcome1.jpg';
-import ch from '../images/group.jpg'; 
+import ch from '../images/group.jpg';
 
 export default class Registration extends Component {
     constructor(props) {

@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react'
-import logo from './LK.png'
+import logo from './Bright.png'
  
 export default class Adminhomeheader extends Component {
   
@@ -10,7 +10,7 @@ export default class Adminhomeheader extends Component {
       <div style={{marginBottom:'45px'}} >
         <nav className="navbar navbar-light bg-light">
           <div>
-             <img src={logo} alt="logo"style={{width:200 , marginTop:'20px', marginLeft:'20px'}}/>
+             <img src={logo} alt="logo"style={{width:600 , marginTop:'20px', marginLeft:'20px'}}/>
           </div>
         </nav>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
@@ -18,7 +18,36 @@ export default class Adminhomeheader extends Component {
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/adminhome" style={{fontSize:'25px'}}>Home</a>
         </li>
-        
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/AdminStudnethome" style={{fontSize:'25px'}}>Student</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/lechome" style={{fontSize:'25px'}}>Lecturer</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/Admincoursepage" style={{fontSize:'25px'}}>Courses</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/Adminsubhome" style={{fontSize:'25px'}}>Subjects</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/libraryhome" style={{fontSize:'25px'}}>Library </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/Admintimetable" style={{fontSize:'25px'}}>Time Tables</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/adminspecialevent" style={{fontSize:'25px'}}>Special Events</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/staffhome" style={{fontSize:'25px'}}>Staff </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/paymenthome" style={{fontSize:'25px'}}>Payment </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/AdminAttendance" style={{fontSize:'25px'}}>Attendance </a>
+        </li>
       </ul>
       <form className="d-flex">
         
