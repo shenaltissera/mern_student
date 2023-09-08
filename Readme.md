@@ -10,7 +10,6 @@ Welcome to the Student Management System (MERN Stack) repository! This web appli
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -24,7 +23,7 @@ This Student Management System is built using the MERN (MongoDB, Express, React,
 
 - **Attendance Tracking:** Easily record and view student attendance for various classes and sessions.
 
-- **Performance Dashboard:** Monitor student performance through graphical representation of grades, assignments, and assessments.
+- **Performance Dashboard:** Monitor student performance through a graphical representation of grades, assignments, and assessments.
 
 - **Search and Filter:** Efficiently search and filter student records based on various criteria.
 
@@ -36,7 +35,7 @@ The repository is structured as follows:
 
 ```
 .
-├── client/
+├── frontend/
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
@@ -44,7 +43,7 @@ The repository is structured as follows:
 │   │   ├── ...
 │   ├── package.json
 │   └── ...
-├── server/
+├── backend/
 │   ├── controllers/
 │   ├── models/
 │   ├── routes/
@@ -55,9 +54,9 @@ The repository is structured as follows:
 └── LICENSE
 ```
 
-- The `client` directory contains the React frontend code, including components, pages, and application logic.
+- The `frontend` directory contains the React frontend code, including components, pages, and application logic.
 
-- The `server` directory contains the Node.js and Express backend code responsible for handling API requests, database interactions, and authentication.
+- The `backend` directory contains the Node.js and Express backend code responsible for handling API requests, database interactions, and authentication.
 
 - The `.env.example` file serves as a template for environment variables needed to configure the application. Rename it to `.env` and provide your own values.
 
@@ -71,29 +70,29 @@ To set up and run this Student Management System on your local machine, follow t
    git clone https://github.com/yourusername/student-management-system-mern.git
    ```
 
-2. Navigate to the `client` and `server` directories separately and install the required dependencies:
+2. Navigate to the `frontend` and `backend` directories separately and install the required dependencies:
 
    ```shell
-   cd client
+   cd frontend
    npm install
 
-   cd ../server
+   cd ../backend
    npm install
    ```
 
-3. Create a MongoDB database and update the `.env` file in the `server` directory with your database connection string and other required variables.
+3. Create a MongoDB database and update the `.env` file in the `backend` directory with your database connection string and other required variables.
 
-4. In the `client` directory, update the API endpoint (in `src/config.js`) to point to your backend server.
+4. In the `frontend` directory, update the API endpoint (in `src/config.js`) to point to your backend server.
 
 5. Start the frontend and backend servers:
 
-   In the `client` directory:
+   In the `frontend` directory:
 
    ```shell
    npm start
    ```
 
-   In the `server` directory:
+   In the `backend` directory:
 
    ```shell
    npm start
@@ -105,7 +104,7 @@ To set up and run this Student Management System on your local machine, follow t
 
 Once the application is up and running, you can:
 
-- Register and log in as an administrator or educator.
+- Register and login as an administrator or educator.
 - Manage student records, including adding new students and updating existing ones.
 - Track student attendance for various classes and sessions.
 - Monitor student performance through the performance dashboard.
@@ -125,16 +124,12 @@ Contributions to this project are welcome! If you have any improvements, bug fix
    git checkout -b feature/add-new-feature
    ```
 
-3. Make your changes, commit them, and push to your forked repository.
+3. Make your changes, commit them, and push them to your forked repository.
 
 4. Create a pull request to merge your changes into the main repository. Ensure your code adheres to the project's coding standards and guidelines.
 
 We will review your contribution and merge it if it aligns with the goals of the project.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the application, but please attribute the source if you choose to share it. Refer to the [LICENSE](LICENSE) file for more details.
 
 Enjoy managing student data with the Student Management System (MERN Stack)!
-
-_This README is a template. Be sure to customize it according to your project's specific details and requirements._
